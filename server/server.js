@@ -36,12 +36,12 @@ db.mongoose
         process.exit();
     });
 
-// simple route
-app.get("/", (req, res) => {
-    res.json({
-        message: "Welcome to Charity Website application."
-    });
-});
+// // simple route
+// app.get("/", (req, res) => {
+//     res.json({
+//         message: "Welcome to Charity Website application."
+//     });
+// });
 
 // routes
 require('./app/routes/auth.routes')(app);
