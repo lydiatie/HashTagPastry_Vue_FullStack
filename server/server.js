@@ -22,6 +22,10 @@ app.use(bodyParser.urlencoded({
 const db = require("./app/models");
 const Role = db.role;
 
+
+// mongodb+srv://Lydia6302:Lydia111389@cluster0.mlxk5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+
 db.mongoose
     .connect(db.url, {
         useNewUrlParser: true,
@@ -55,7 +59,7 @@ if (process.env.NODE_ENV === 'production') {
     app.use(express.static(__dirname + '/public/'));
 
     // Handle SPA
-    app.get("*", (req, res) => res.sendFile(__dirname + '/public/index.html'));
+    app.get("/*/", (req, res) => res.sendFile(__dirname + '/public/index.html'));
 }
 
 // set port, listen for requests
