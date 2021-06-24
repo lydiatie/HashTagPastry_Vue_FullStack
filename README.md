@@ -1,40 +1,39 @@
 
 # Project Title
 
-A brief description of what this project does and who it's for
-
+HashTagPastry Charity website created for WEB701 Web Technologies Assignment
 
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
+**Client:** Vue.js, Bootstrap
 
-**Server:** Node, Express
-
+**Server:** Node, Express, Mongodb
   
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/lydiatie/HashTagPastry_Vue_FullStack.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
-  npm install
+  cd HashTagPastry_Vue_FullStack
 ```
 
 Start the server
 
 ```bash
-  npm run start
+  npm run dev
+```
+
+Start the client
+
+```bash
+  cd client
+  npm run serve
 ```
 
   
