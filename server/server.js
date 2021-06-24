@@ -22,10 +22,6 @@ app.use(bodyParser.urlencoded({
 const db = require("./app/models");
 const Role = db.role;
 
-
-// mongodb+srv://Lydia6302:Lydia111389@cluster0.mlxk5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-
-
 db.mongoose
     .connect(db.url, {
         useNewUrlParser: true,
